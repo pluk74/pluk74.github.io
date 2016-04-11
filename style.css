@@ -1,8 +1,92 @@
-p {
-    color: white;  
-    background-color: black;
-}
-
 .main {
     line-height: 1.5;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-image: url("WDF_1818443.jpg");
+    background-size: cover;
+    opacity: .5;
+    background-repeat: repeat-y;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* selected link */
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.heading {
+    clear: both;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    height: 50px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.myname {
+    font-size: 20pt;
+}
+
+.myaddy {
+    font-size: 8pt;
+    float: right;
+    width: 200px;
+}
+
+.myemail {
+    font-size: 8pt;
+    float: right;
+    width: 200px;
+}
+
+.myphone {
+    font-size: 8pt;
+    float: right;
+    width: 200px;
+}
+
+#me {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    widows: 50px;
 }
